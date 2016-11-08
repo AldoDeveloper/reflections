@@ -1,8 +1,30 @@
 What happens when you initialize a repository? Why do you need to do it?
 	
-	It creates a hidden directory call .git, you need to initialize to create a repository
+	It creates a hidden directory call .git, you need to initialize to create a repository.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	It is an intermediate process that communicates working directory to the repository and the value is that you
 	can undo come changes before commiting.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Staging area is an intermediate process between the working directory and the repository, so it can be analyze before
+	comitting.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	When you whanna create a different version from the production version, branches can help keep production code intact.
+
+How do the diagrams help you visualize the branch structure?
+
+	To understand how branches structure flows.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	The result is the combination of 2 branches and it was represented in a diagram to understand it's behavior.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	The pros is that it combines the work of others very easy and the cons is that it might have conflict when 2 persons
+	modify the same file.
